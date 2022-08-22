@@ -17,6 +17,14 @@
         echo $paragraph . '; Questa frase è lunga : ' . strlen($paragraph);
         ?>
     </p>
+    <h4>Vedi cosa può esclamare Luigi aggiungi una parola .....</h4>
+
+    <p>
+        <?php
+        $new_paragraph = $paragraph . ' : ' . $_GET['word'];
+        echo $new_paragraph . ' ; Questa frase è lunga : ' . strlen($new_paragraph)
+        ?>
+    </p>
 </body>
 
 </html>
