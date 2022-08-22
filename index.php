@@ -9,8 +9,14 @@
 </head>
 
 <body>
-    CIAOOOOO
+    <h1>PHP Project</h1>
 
+    <p>
+        <?php
+        $paragraph = "Luigi Micco ha perso l'areo";
+        echo $paragraph . '; Questa frase è lunga : ' . strlen($paragraph);
+        ?>
+    </p>
 </body>
 
 </html>
